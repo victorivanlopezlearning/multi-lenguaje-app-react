@@ -6,12 +6,15 @@ import messagesInSpanish from '../lang/es-MX.json';
 
 export const LangProvider = ({ children }) => {
 
+  const localeStorage = localStorage.getItem('lang') ?? 'en-US';
+
   const [messages, setMessages] = useState(messagesInEnglish);
-  const [locale, setLocale] = useState('en-US');
+  const [locale, setLocale] = useState(() => localeStorage);
 
   useEffect(() => {
     const newMessages = (locale === 'en-US') ? messagesInEnglish : messagesInSpanish;
     setMessages(newMessages);
+    localStorage.setItem('lang', locale);
   }, [locale])
 
   const onChangeLocale = (locale) => {
