@@ -20,6 +20,11 @@ a:hover {
   text-decoration: underline;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+}
+
 .active {
   text-decoration: underline;
 }
@@ -49,7 +54,7 @@ a:hover {
 .main {
   background: #292931;
   padding: 40px;
-  border-radius: 5px;
+  border-radius: 10px;
   color: #fff;
 }
 
@@ -57,6 +62,10 @@ a:hover {
   font-size: 40px;
   font-weight: 300;
   margin-bottom: 10px;
+}
+
+.title span {
+  font-weight: 500;
 }
 
 .subtitle {
@@ -92,12 +101,12 @@ a:hover {
 }
 
 .grid div {
-  width: 100%;
   background: #000;
-  border-radius: 3px;
+  border-radius: 10px;
   overflow: hidden;
 }
 
 .grid div img {
-  width: 100%;
+  min-height: 170px;
+  object-fit: cover;
 }
