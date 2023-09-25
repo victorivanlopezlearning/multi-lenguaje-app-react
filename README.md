@@ -2,8 +2,7 @@
 
 ## Description
 - Development with React 18.
-- State management whit React Context API.
-- Custom Hooks.
+- State management with React Context API.
 - Library used for internationalize:  [Format.js](https://formatjs.io/).
 
 ## Installation
