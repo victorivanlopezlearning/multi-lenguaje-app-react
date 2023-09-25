@@ -18,6 +18,7 @@ export const HomePage = () => {
           year="numeric"
           month="long"
           day="numeric"
+          weekday= "long"
         />
       </p>
     </>
