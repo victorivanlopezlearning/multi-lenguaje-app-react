@@ -1,3 +1,4 @@
+import { LangProvider } from './context';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -8,6 +9,8 @@ const router = createBrowserRouter(AppRouter);
 
 export const App = () => {
   return (
-    <RouterProvider router={router} />
+    <LangProvider>
+      <RouterProvider router={router} />
+    </LangProvider>
   )
 }
