@@ -2,8 +2,6 @@ import { useContext } from 'react';
 import { NavLink } from 'react-router-dom';
 import { FormattedMessage } from 'react-intl';
 import { LangContext } from '../context';
-import es from './../assets/img/mexico.png';
-import en from './../assets/img/usa.png';
 
 export const Navbar = () => {
 
@@ -46,13 +44,18 @@ export const Navbar = () => {
           type='button'
           onClick={() => onChangeLocale('es-MX')}
         >
-          <img src={es} alt="Imagen bandera" />
+          <img 
+            src='./assets/img/mexico.png'
+            alt="Imagen bandera de México" />
         </button>
         <button
         type='button'
         onClick={() => onChangeLocale('en-US')}
         >
-          <img src={en} alt="Imagen bandera" />
+          <img 
+            src='./assets/img/usa.png' 
+            alt="Imagen bandera de USA"
+          />
         </button>
       </div>
     </div>
