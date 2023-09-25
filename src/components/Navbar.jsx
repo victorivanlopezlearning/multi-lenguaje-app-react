@@ -46,7 +46,7 @@ export const Navbar = () => {
         >
           <img 
             src='./assets/img/mexico.png'
-            alt="Imagen bandera de México" />
+            alt="Image - México Flag" />
         </button>
         <button
         type='button'
@@ -54,7 +54,7 @@ export const Navbar = () => {
         >
           <img 
             src='./assets/img/usa.png' 
-            alt="Imagen bandera de USA"
+            alt="Image - USA Flag"
           />
         </button>
       </div>
