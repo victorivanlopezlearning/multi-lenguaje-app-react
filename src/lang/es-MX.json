@@ -1,0 +1,9 @@
+{
+  "Navbar.home": "Inicio",
+  "Navbar.explore": "Explorar",
+  "Navbar.profile": "Perfil",
+  
+  "Home.title": "Bienvenido, {name}",
+  "Profile.title": "Perfil",
+  "Explore.title": "Explorar"
+}
