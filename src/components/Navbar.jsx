@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom';
-import es from './../assets/img/spain.png';
-import en from './../assets/img/united-kingdom.png';
+import es from './../assets/img/mexico.png';
+import en from './../assets/img/usa.png';
 
 export const Navbar = () => {
   return (
