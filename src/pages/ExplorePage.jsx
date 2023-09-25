@@ -1,6 +1,12 @@
+import { FormattedMessage } from 'react-intl';
 
 export const ExplorePage = () => {
   return (
-    <h1>Explore Page</h1>
+    <h1>
+      <FormattedMessage
+        id='Explore.title'
+        defaultMessage='Explore'
+      />
+    </h1>
   )
 }
