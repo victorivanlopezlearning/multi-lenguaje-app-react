@@ -1,11 +1,11 @@
 import { LangProvider } from './context';
 import {
-  createBrowserRouter,
+  createHashRouter,
   RouterProvider,
 } from 'react-router-dom';
 import { AppRouter } from './router/AppRouter';
 
-const router = createBrowserRouter(AppRouter);
+const router = createHashRouter(AppRouter);
 
 export const App = () => {
   return (
