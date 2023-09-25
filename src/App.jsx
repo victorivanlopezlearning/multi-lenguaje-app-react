@@ -1,6 +1,13 @@
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from 'react-router-dom';
+import { AppRouter } from './router/AppRouter';
+
+const router = createBrowserRouter(AppRouter);
 
 export const App = () => {
   return (
-    <h1>Multi-Lenguaje App</h1>
+    <RouterProvider router={router} />
   )
 }
