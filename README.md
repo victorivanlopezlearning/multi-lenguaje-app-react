@@ -5,6 +5,11 @@
 - State management with React Context API.
 - Library used for internationalize:  [Format.js](https://formatjs.io/).
 
+## Preview
+| **Changing Lenguaje** |
+| :-------------: |
+| ![Changing Lenguaje](https://i.imgur.com/KfCWV1o.gif) |
+
 ## Installation
 
 To install and run the project locally, follow these steps:
